@@ -1,0 +1,115 @@
+body{
+    background-color: white;
+}
+
+.the_title{
+    background-color: salmon;
+    text-align: center;
+    padding-left: 4%;
+    padding-right:4%;
+    margin: 2%;
+    font-family: cursive;
+}
+
+.choice{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+.players_score{
+    border: 3px solid black;
+    width: 300px;
+    text-align: center;
+    margin-left: 37%;
+    color: forestgreen;
+    font-size: 45px;
+    border-radius: 7px;
+    padding: 14px 20px;
+    font-family: fantasy, sans-serif;
+ font-size: 20px;
+    position: relative;
+
+    
+}
+
+.player{
+    background-color: red;
+    font-size: 25px;
+    color: black;
+}
+
+#player2 {
+    background-color: blue;
+        font-size: 15px;
+    position: absolute;
+    right: -20px;
+    top:0px;
+
+}
+
+#player1{
+    position: absolute;
+    top:0px;
+    left: -40px;
+    
+    font-size: 15px;
+
+}
+
+#userChoice{
+    text-align: center;
+    font-weight: bold;
+}
+.result{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.choice img{
+    border: 16px solid brown;
+    border-radius: 50%;
+    margin: 3px;
+    padding: 5%;
+}
+#rock {
+    border: 16px solid green;
+    border-radius: 50%;
+}
+
+#paper{
+border: 16px solid aqua;
+    border-radius: 50%;
+}
+
+#scissor{
+    border: 16px solid yellow;
+    border-radius: 50%;
+}
+
+.choice> #paper:hover{
+    cursor: pointer;
+    background-color: red;
+       
+}
+
+.choice> #scissor:hover{
+    cursor: pointer;
+    background-color: red;
+       
+}
+
+.choice> #rock:hover{
+    cursor: pointer;
+    background-color: red;
+       
+}
+
+
+
+
+
+
+
+
